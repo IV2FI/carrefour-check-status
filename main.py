@@ -9,7 +9,19 @@ xbox_gtin = "0889842640809"
 url="https://www.carrefour.fr/api/v1/offer_locator?gtin=" + xbox_gtin + "&postalCode="
 
 headers = {
-  'x-requested-with': 'XMLHttpRequest'
+  'authority': 'www.carrefour.fr',
+  'sec-ch-ua': '"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"',
+  'accept': 'application/json, text/plain, */*',
+  'x-dtpc': '4$374935134_730h16vRHFEUHWRLFEMUMCJOCATHLWHOWFHUSPU-0e0',
+  'x-requested-with': 'XMLHttpRequest',
+  'sec-ch-ua-mobile': '?0',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
+  'sec-ch-ua-platform': '"Windows"',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  'referer': 'https://www.carrefour.fr/p/console-xbox-series-x-1to-microsoft-0889842640809',
+  'accept-language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
 }
 
 stores_with_stock = []
