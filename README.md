@@ -13,6 +13,7 @@ Ensuite, plus qu'à faire un `python3 main.py`
 
 Les résultats ressemblent à ça :
 
-<img width="269" alt="Screenshot 2021-11-17 at 22 21 37" src="https://user-images.githubusercontent.com/63878365/142284342-1efa43bc-2e66-4421-886b-0074bf3b9988.png">
+<img width="269" alt="Screenshot 2021-11-17 at 22 27 39" src="https://user-images.githubusercontent.com/63878365/142285124-ee4166da-48a3-4ff8-98a4-9625846fd736.png">
+
 
 S'il y a du stock, ça mettra la liste des magasins avec leur nom et leur code postal.
