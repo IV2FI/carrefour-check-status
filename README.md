@@ -5,7 +5,12 @@ Le code utilise l'API de Carrefour pour vérifier s'il y a un magasin avec du st
 
 ## Comment faire tourner le code
 
-Il faut avoir Python3, pip3 et utiliser pip3 pour installer les 2 modules importés au début du code.
+
+Il faut avoir Python3, pip3 et cette commande pour installer les modules.
+
+```bash
+pip3 install -r requirements.txt
+```
 
 Ensuite, plus qu'à faire un `python3 main.py`
 
